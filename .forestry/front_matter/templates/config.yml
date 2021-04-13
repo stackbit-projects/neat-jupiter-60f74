@@ -16,13 +16,13 @@ fields:
 - type: text
   name: permalink
   label: Permalink
-  description: 'The output path for your pages, posts, or collections.'
+  description: The output path for your pages, posts, or collections.
   hidden: true
-  default: '/posts/:slug:output_ext'
+  default: "/posts/:slug:output_ext"
 - type: text
   name: domain
   label: Domain
-  description: 'The domain of your site, including the protocol, e.g. https://mysite.com/'
+  description: The domain of your site, including the protocol, e.g. https://mysite.com/
 - type: file
   name: favicon
   label: Favicon
